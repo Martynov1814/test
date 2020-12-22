@@ -1,0 +1,53 @@
+table, th {
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.prod-row {
+    display: flex;
+    justify-content: space-around;
+}
+.prod {
+    width: 25%;
+}
+.btn-setting {
+    position: absolute;
+    right: 1%;
+    top: 12%;
+    font-size: 10px;
+}
+.windowSettings {
+    position: absolute;
+    background-color: #222;
+    border-radius: 10px;
+    opacity: 0.7;
+    bottom: 50%;
+    left: 30%;
+    z-index: 10;
+}
+.mutation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.mutation-title {
+    color: #fff;
+    padding: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.mutation-content {
+    color: #fff;
+    padding: 10px;
+}
